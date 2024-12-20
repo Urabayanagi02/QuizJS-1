@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  /* 全ページ共通のスタイル */
+  /*.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    width: 60vw;
+    height: 50vh;
+    margin: 100px auto;
+    padding: 50px;
+  }*/
+
+  .container h2 {
+    font-size: 1.5em;
+  }
+  
+  .container .choice {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .container .choice button {
+    border: 1px solid rgba(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+    background-color: #fff;
+    width: 150px;
+  }
+  
+  /* 各ページ共通のスタイル */
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+
+  /* ページ非表示のスタイル */
+  .page .hidden {
+    display: none;
+  }
+
+
+  .otomei button{
+    border: 1px solid rgba(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+    background-color: #fff;
+    width: 130px;
+  }
+
+  .otomei{
+    text-align: center;
+  }
+
+  br{
+    padding : 30px
+  }
